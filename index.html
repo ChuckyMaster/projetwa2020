@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Récits Antiques | Acceuil</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <header class="sticky-top h-20">
+      <nav class="navbar navbar-light navbar-expand-md bg-light p-3">
+        <div class="container-fluid">
+          <!--bouton responsive-->
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarText"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav align-center">
+              <li class="nav-item active">
+                <a href="/index.html" class="navbar-brand nav-link">Acceuil</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="/art1.html" class="nav-link">Les Récits</a>
+              </li>
+              <li class="nav-item">
+                <a href="/art2.html" class="nav-link">Personnages</a>
+              </li>
+              <li class="nav-item">
+                <a href="/art3.html" class="nav-link">Boutique</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- carousel-->
+    <div
+      class="carousel slide container-fluid"
+      data-ride="carousel"
+      id="testCarousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/img/book2.jpg"
+            alt="book"
+            class="d-block img-fluid center-block w-100"
+          />
+          <div class="carousel-caption">
+            <h1 class="text-right p-3">
+              Bienvenue sur le site des récits Antiques.
+            </h1>
+            <br />
+            <br />
+            <p class="lead font-italic text-right">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+              possimus, blanditiis fugiat similique nihil tenetur! Esse nobis
+              quisquam laborum repellendus.....
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/img/book4.jpg"
+            alt="old book"
+            class="d-block img-fluid w-100"
+          />
+          <div class="carousel-caption text-right">
+            <h2 class="font-italic">
+              Dévouvrez de nombreuses légendes et histoire...
+            </h2>
+            <br />
+            <p class="lead font-italic">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+              possimus, blanditiis fugiat similique nihil tenetur! Esse nobis
+              quisquam laborum repellendus.....
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/img/livre-ancien.jpg"
+            alt="old book"
+            class="d-block img-fluid w-100"
+          />
+          <div class="carousel-caption text-left">
+            <h2 class="font-italic">
+              Une large séléction de livres disponibles...
+            </h2>
+            <br />
+            <p class="lead font-italic">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+              possimus, blanditiis fugiat similique nihil tenetur! Esse nobis
+              quisquam laborum repellendus.....
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item text-left">
+          <img
+            src="/img/book5.jpg"
+            alt="old book"
+            class="d-block img-fluid w-100"
+          />
+          <div class="carousel-caption">
+            <h2 class="font-italic">
+              Plongez dans l'histoire de la mythologie..
+            </h2>
+            <br />
+            <p class="lead font-italic">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+              possimus, blanditiis fugiat similique nihil tenetur! Esse nobis
+              quisquam laborum repellendus.....
+            </p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" data-slide="prev" href="#testCarousel">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" data-slide="next" href="#testCarousel">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <br />
+    <br />
+
+    <hr class="m-5" />
+    <br />
+    <br />
+    <br />
+
+    <!-- Jumbotron Newsletter-->
+
+    <div class="card container text-center">
+      <img
+        class="card-img-top img-fluid m-auto img-thumbnail"
+        src="/img/fantasy-book1.jpg"
+        alt="Card image cap"
+      />
+
+      <h2 class="card-header">Notre librairie</h2>
+      <div class="card-body">
+        <h3 class="card-title">Les best sellers</h3>
+        <p class="card-text lead">
+          Découvrez les best-sellers, ainsi que le choix de la redac, dans un
+          large choix de livres Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Accusantium, nulla.
+        </p>
+        <button class="btn btn-lg btn-light mt-2">
+          <a href="/art3.html">Découvrir</a>
+        </button>
+      </div>
+    </div>
+
+    <br />
+
+    <!--Main part-->
+    <main class="container m-auto p-5">
+      <hr class="mb-5" />
+      <br />
+      <div class="col-12">
+        <h2 class="strong m-auto text-center bg-light p-5 text-dark">
+          Nos derniers articles
+        </h2>
+      </div>
+      <div class="card-deck mt-5 p-5 bg-light">
+        <div class="card">
+          <div class="card-body text-center text-dark">
+            <img
+              src="https://i.pinimg.com/originals/74/86/c1/7486c12246475dad8f868a8bacbb4cbb.jpg"
+              class="img-fluid"
+              alt="celte"
+            />
+            <h3 class="card-title m-3">Les Celtes</h3>
+            <h5 class="card-subtitle">Lorem ipsum dolor sit amet.</h5>
+            <p class="m-3 text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+            </p>
+            <a href="#spoiler1" data-toggle="collapse">Afficher</a>
+            <div id="spoiler1" class="collapse spoiler">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed
+              aut sequi expedita vero facere nihil eaque blanditiis. Placeat,
+              perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Numquam distinctio at nostrum voluptates soluta perferendis
+              earum temporibus voluptate quod dolorum! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Maxime possimus reiciendis
+              nobis officia consequuntur iste sequi inventore praesentium
+              voluptatum autem.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body text-center text-dark">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Holygrail.jpg/220px-Holygrail.jpg"
+              class="img-fluid"
+              alt="Art Dante Gabriel Rossetti"
+            />
+            <h3 class="card-title m-3">La Demoiselle du saint Graal</h3>
+            <h5 class="card-subtitle">Lorem ipsum dolor sit amet.</h5>
+            <p class="m-3">
+              Lorem ipsum dolor sit amet consectetur ...
+              
+            </p>
+            <a href="#spoiler2" data-toggle="collapse">Afficher</a>
+            <div id="spoiler2" class="collapse">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed
+              aut sequi expedita vero facere nihil eaque blanditiis. Placeat,
+              perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Numquam distinctio at nostrum voluptates soluta perferendis
+              earum temporibus voluptate quod dolorum! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Maxime possimus reiciendis
+              nobis officia consequuntur iste sequi inventore praesentium
+              voluptatum autem.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body text-center text-dark">
+            <img
+              src="https://i.pinimg.com/originals/3e/b8/60/3eb8607e6874293ddfefae660ad1ab89.jpg"
+              class="img-fluid"
+              alt="valkyre"
+            />
+
+            <h3 class="card-title m-3">Les Norrois</h3>
+            <h5 class="card-subtitle">Lorem, ipsum dolor.</h5>
+            <p class="m-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit...
+           
+            </p>
+            <a href="#spoiler3" data-toggle="collapse">Afficher</a>
+            <div id="spoiler3" class="collapse">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sed
+              aut sequi expedita vero facere nihil eaque blanditiis. Placeat,
+              perspiciatis! Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit. Numquam distinctio at nostrum voluptates soluta perferendis
+              earum temporibus voluptate quod dolorum! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Maxime possimus reiciendis
+              nobis officia consequuntur iste sequi inventore praesentium
+              voluptatum autem.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Article - news-->
+      <h2 class="font-dark m-5 text-center">Nos dernières aquisitions</h2>
+
+      <div class="row bg-light">
+        <div class="col-md-6 p-3 text-center">
+          <img
+            src="https://cdn1.booknode.com/book_cover/989/mod11/contes-fantastiques-des-pays-celtes-989393-264-432.jpg"
+            alt=""
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 p-3">
+          <h2 class="p-2 mt-1">Contes fantastique des pays Celtes</h2>
+          <p class="p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            perferendis doloremque delectus suscipit placeat iusto. Tempora
+            laboriosam in aliquam dignissimos eligendi officia sapiente autem.
+            Magnam.
+          </p>
+          <button type="button" class="btn btn-lg btn-dark">
+            <a href="/art3.html">Acheter</a>
+          </button>
+        </div>
+
+        <div class="col-md-6 p-3 text-center mt-5">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/31fQDxT5y5L._SX331_BO1,204,203,200_.jpg"
+            alt="Volsunga saga"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6 mt-5">
+          <h2 class="p-2 mt-1">Volsunga saga</h2>
+          <p class="p-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sit
+            maxime, et porro voluptatem natus consequatur quae beatae, ut
+            praesentium ex consequuntur cupiditate! Vero laudantium autem itaque
+            quaerat molestiae quae!
+          </p>
+          <button type="button" class="btn btn-lg btn-dark">
+            <a href="/art3.html">Acheter</a>
+          </button>
+        </div>
+      </div>
+    </main>
+    <br />
+    <br />
+    <footer class="py-4 bg-light text-dark-50 border-top">
+      <div class="container text-center">
+        <small>Copyright &copy; Les Récits Antiques 2020</small>
+      </div>
+    </footer>
+  </body>
+</html>

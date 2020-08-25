@@ -1,0 +1,44 @@
+@import url('bootstrap.min.css');
+@import url('bootstrap-theme.css');
+
+h1 {
+  font-family: 'Srisakdi', cursive;
+  font-size: 50px;
+}
+
+h2,
+h3,
+h5 {
+  font-family: 'Srisakdi', cursive;
+}
+
+a {
+  color: #b6babf;
+}
+
+a:hover {
+  color: burlywood;
+}
+
+button {
+  font-family: 'Dancing Script', cursive;
+}
+
+.card {
+  padding: 0;
+}
+
+
+.card , .card-header {
+  background: none;
+ 
+  
+  
+}
+
+.bg {
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
